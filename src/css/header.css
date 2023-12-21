@@ -6,7 +6,6 @@ header {
   display: flex;
   align-items: center;
   background-color: #ffffff;
-  border: 3px solid;
 }
 nav {
   margin-left: auto;
@@ -21,6 +20,7 @@ nav ul {
 .navText {
   font-family: 'Kanit', sans-serif;
   font-weight: 500;
+  font-size: 18px;
   width: 100px;
   color: #000000;
   display: flex;
@@ -34,7 +34,7 @@ nav ul {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 10px 0 5px 100px;
+  margin: 20px 10px 5px 50px;
 }
 .fa-regular {
   width: 40px;
@@ -42,5 +42,5 @@ nav ul {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 10px 20px 5px 0;
+  margin: 20px 20px 5px 0;
 }
