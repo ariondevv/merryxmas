@@ -8,6 +8,8 @@ header {
   background-color: #ffffff;
 }
 nav {
+  margin-top: 10px;
+  margin-bottom: 10px;
   margin-left: auto;
   display: flex;
 }
@@ -19,7 +21,6 @@ nav a {
   text-decoration: none;
   color: #000000;
 }
-
 .navText {
   font-family: 'Kanit', sans-serif;
   font-weight: 500;
