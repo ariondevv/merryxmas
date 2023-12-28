@@ -4,7 +4,7 @@ body {
 
 .fondonavidad {
     width: 1550px;
-    height: 650px;
+    height: 750px;
     margin-left: 0px;
 }
 
@@ -26,5 +26,89 @@ p {
 #sizeimg {
     font-size: 90px;
     overflow: auto;
-    font-family: 'Poppins', sans-serif;;
+    font-family: 'Poppins', sans-serif;
+    ;
+}
+
+
+.containerPrincipal {
+
+    display: flex;
+    margin-top: 85px;
+
+}
+
+.caja1 {
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+    margin-right: 55px;
+    margin-left: 350px;
+}
+
+.caja2 {
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+    margin-right: 85px;
+    text-align: justify;
+    animation: aparecer1 2s ease-in-out forwards;
+
+}
+
+.texto1 {
+
+    margin-right: -200px;
+    margin-left: 500px;
+}
+
+.texto2 {
+
+    text-align: justify;
+    animation: aparecer1 2s ease-in-out forwards;
+
+}
+
+.contenedor-imagen {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    margin-top: 10%;
+    /* añade esquinas redondeadas si lo deseas */
+
+}
+
+.imagen {
+    width: 95%;
+    /* ajusta el tamaño de la imagen según tus necesidades */
+    border-radius: 10px;
+    margin-top: 10%;
+    /* añade esquinas redondeadas si lo deseas */
+}
+
+.texto-centrado-bajo-imagen {
+    text-align: center;
+    justify-content: center;
+    margin-top: 10px;
+    color: #000000;
+    font-size: 55px;
+    /* ajusta el color del texto según tu diseño */
+}
+
+.texto-centrado-bajo-imagen2 {
+    font-size: 45px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 10px;
+    /* ajusta el color del texto según tu diseño */
+}
+
+
+#link {
+
+    text-decoration: none;
+    color: #000000;
+    margin-left: 185px;
+    font-size: 35px;
 }
